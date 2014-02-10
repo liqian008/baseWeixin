@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.bruce</groupId>
 	<artifactId>weixin</artifactId>
-	<name>weixin</name>
+	<name>baseWeixin</name>
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
@@ -21,15 +21,13 @@
 			<version>1.5</version>
 		</dependency>
 
-
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>2.2</version>
 		</dependency>
 
-
-		<dependency>
+		<dependency> 
 			<groupId>xstream</groupId>
 			<artifactId>xstream</artifactId>
 			<version>1.2</version>
@@ -38,9 +36,8 @@
 		<dependency>
 			<groupId>commons-httpclient</groupId>
 			<artifactId>commons-httpclient</artifactId>
-			<version>3.1</version>
+			<version>3.1</version> 
 		</dependency>
-
 
 		<!-- Spring -->
 		<dependency>
